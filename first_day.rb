@@ -9,3 +9,6 @@ puts <<~TEXT
 合計７時間
 
 TEXT
+
+puts "さぁ、始めよう！"
+puts "なぜ動かん"
