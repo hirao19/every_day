@@ -28,3 +28,21 @@ GitHub→Settings→Brabches→master入力→Update→
 I understand, update the default branch　クリック
 
 TEXT
+
+puts "----------------------------------------------"
+
+puts "復習"
+#elsifを用いると「もし◯◯だったら●●を行う、そうでなくもし△△であれば▲▲を行う
+#いずれでもなければ■■を行う」という条件分岐ができます。
+
+
+time = 7
+if time >= 7
+  puts "本日の学習時間を達成です！！"
+elsif  time >= 6
+  puts "おしい！！あとちょっと！"
+else
+  puts "やり気ありますか？ちゃんと頑張ってください"
+end
+
+puts "-----------------------------------------------"
