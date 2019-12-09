@@ -11,3 +11,20 @@ puts <<~TEXT
 TEXT
 
 puts "さぁ、始めよう！"
+
+puts <<~TEXT
+「途中計画」
+始める前に一度　GitHub作成→pushしようとした所
+操作方法を忘れており、ベースのmasterを違うbfanch名で
+してしまい、わからなくなった。
+
+新しく作成し、このディレクトリを抹消しようとしたが
+そうなった時の対処方がわからないと、働き初めて教育指導を
+行うようになった時に困る＋そういうエラーが出なくなって
+知らないままになるので、ネットにて解決方法を調べて改善。
+
+「解決方法〜base branch 変更の仕方〜」
+GitHub→Settings→Brabches→master入力→Update→
+I understand, update the default branch　クリック
+
+TEXT
