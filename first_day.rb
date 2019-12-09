@@ -11,4 +11,3 @@ puts <<~TEXT
 TEXT
 
 puts "さぁ、始めよう！"
-puts "なぜ動かん"
