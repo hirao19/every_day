@@ -65,3 +65,54 @@ elsif num % 2 == 0
 else
   puts "どちらでもありません"
 end
+
+puts "------------------------------------------------"
+# 配列[] = 値を並べて管理
+names = ["hirao","ishida","kawai","machida"]
+border = "-----------------------------------"
+puts "私の名前は#{names[1]}です"
+
+# 繰り返しeach文
+names.each do |name|
+  puts "私の名前は#{name}です"
+  puts border
+end
+
+#ハッシュ{}　= それぞれの値にキーと呼ばれる名前をつけて管理
+user = {name: "hirao", age: 21} #省略形（これが基本）
+puts "#{user[:name]}です"
+puts user[:num] #表示されない「nil」
+puts  nil #nilで確認する
+
+if user[:age2]
+  puts "#{user[:name]}さんは#{age2}です"
+else
+  puts "#{user[:name]}さんの年齢は秘密です"
+end
+
+# 配列の要素にハッシュを入れる
+users = [
+  {name: "hirao",age: 33}, #インデックス番号[0]
+  {name: "machida",age: 36} #インデックス番号[1]
+]
+puts users[1]
+
+#配列の中のハッシュ
+#配列[インデックス番号]でハッシュを用いることができるので、
+#そのハッシュを代入した変数をつかって、変数[キー]とすることで
+#ハッシュの要素の値を用いることができます。
+user = users[1]
+puts user[:name]
+#上記の省略形
+puts users[1][:name]
+
+#ハッシュである配列にeach(繰り返し文)を使う
+users.each do |user|
+  puts user
+end
+#eachの中でハッシュを使う
+users.each do |user|
+  puts user[:name]
+end
+
+puts "--------------------------------------------"
