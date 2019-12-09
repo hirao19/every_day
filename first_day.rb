@@ -54,3 +54,14 @@ end
 if time > 8 || time > 5
   puts "わかってきたんじゃない？"
 end
+
+num = 12
+if num % 2 == 0 && num % 5 == 0
+  puts "10の倍数です"
+elsif num % 5 == 0
+  puts "5の倍数です"
+elsif num % 2 == 0
+  puts "2の倍数です"
+else
+  puts "どちらでもありません"
+end
