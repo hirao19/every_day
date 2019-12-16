@@ -53,3 +53,36 @@ def users(name:,age:,like:)
   puts "#{name},#{age},#{like}です"
 end
 users(name:"hirao",age:33,like:"たこ焼き")
+
+puts "復習"
+
+puts "出力せよ"
+
+#if文
+score = 7
+if score >= 8
+  puts "よく出来ました"
+elsif score >= 7
+  puts "あとちょっと！"
+else
+  puts "ダメダメダメ子〜！"
+end
+#配列
+nums = [1,2,3,4,5,6,7,8,9]
+p nums
+puts nums[1]
+nums << 10
+p nums
+nums.shift
+p nums
+
+#each文
+
+puts <<~TEXT
+関連するメソッド
+配列を取得するときにインデックス番号も扱いたい場合はeach_with_index
+改行文字ごとに文字列を取得したい場合はeach_line
+配列の要素を指定した数値で切り分けたい場合はeach_slice
+ブロックに値を渡して新たな配列を作成したい場合はeach_with_object
+
+TEXT
