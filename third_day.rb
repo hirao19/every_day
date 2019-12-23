@@ -11,3 +11,8 @@ p users
 puts "Ruby課題Q3"
 numbers = ["1","2","3","4","5"]
 p numbers.map(&:to_i)
+
+puts "Ruby課題Q4"
+a = ["dog", "cat", "fish"]
+b = ["bird", "bat", "tiger"]
+p a + b
